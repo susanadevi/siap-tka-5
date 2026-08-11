@@ -488,7 +488,7 @@
             document.body.appendChild(appRoot);
         }
 
-        const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbycv0Lst9M6SEH9X6gtpWSak7a1C3LLR6Kaa_0_v5lxlv4Z-mwC8HlJhR_Sanv5FpU-/exec"; 
+        const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz0_VrgNGbvfObGBNuS5TSlioS6FY6cYyDEn9jgibWVhxkrv51P6I3fTUsadT3UMrWktg/exec"; 
 
         let users_db = [];
         try { users_db = JSON.parse(localStorage.getItem('cbt_users')) || []; } catch(e) { users_db = []; }
